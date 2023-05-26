@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is my portfolio",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite --mode development",
+    "build": "vite build --mode production",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goddmartee/portfolio.git"
+  },
+  "keywords": [],
+  "author": "goddmartee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goddmartee/portfolio/issues"
+  },
+  "homepage": "https://github.com/goddmartee/portfolio#readme",
+  "dependencies": {
+    "bootstrap": "5.2.3",
+    "bootstrap-icons": "1.10.5"
+  },
+  "devDependencies": {
+    "eslint": "8.40.0",
+    "sass": "1.62.1",
+    "vite": "4.3.5"
+  }
+}

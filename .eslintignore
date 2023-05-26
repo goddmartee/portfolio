@@ -1,0 +1,19 @@
+node_modules/
+*.html
+
+# Ignore production directories
+dist/
+public/
+
+# Ignore config files
+.eslintrc.js
+.prettierrc.js
+.github/
+vite.config.js
+
+# Ignore test directories
+test/**/*.js
+
+# Ìgnore package files for a uknown error
+package.json
+package-lock.json
