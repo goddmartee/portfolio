@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite --mode development",
     "build": "vite build --mode production",
-    "preview": "vite preview --mode production"
+    "preview": "vite preview --mode production",
+    "deploy": "npm run build & npm run preview"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/goddmartee/portfolio/issues"
   },
-  "homepage": "https://github.com/goddmartee/portfolio#readme",
+  "homepage": "https://goddmartee.github.io/portfolio/",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.5"
