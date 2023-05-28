@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --mode development",
     "build": "vite build --mode production",
-    "preview": "vite preview"
+    "preview": "vite preview --mode production"
   },
   "repository": {
     "type": "git",
@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/goddmartee/portfolio#readme",
   "dependencies": {
-    "bootstrap": "5.2.3",
-    "bootstrap-icons": "1.10.5"
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5"
   },
   "devDependencies": {
-    "eslint": "8.40.0",
-    "sass": "1.62.1",
-    "vite": "4.3.5"
+    "eslint": "^8.41.0",
+    "sass": "^1.62.1",
+    "vite": "^4.3.9"
   }
 }

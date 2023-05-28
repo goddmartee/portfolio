@@ -3,10 +3,10 @@ import { resolve } from "path"
 
 export default defineConfig({
   root: resolve(__dirname, "src"),
+  base: "/portfolio/",
   build: {
-    outDir: "../dist",
-    minify: true,
-    emptyOutDir: true
+    outDir: resolve(__dirname, "dist"),
+    emptyOutDir: true,
   },
   server: {
     port: 8080,

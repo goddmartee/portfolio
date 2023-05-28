@@ -1,6 +1,7 @@
+@import "_variables";
+
 // Configuration
 @import "bootstrap/scss/functions";
-@import "_variables";
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
@@ -25,7 +26,6 @@
 // Utilities
 @import "bootstrap/scss/utilities/api";
 
-//------------------//
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
 @import "_font.scss";
@@ -40,6 +40,10 @@
     background-color: $primary;
 }
 
+@include media-breakpoint-down(md) { 
+  .about { width: 100%; } 
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   -webkit-user-select: none;
@@ -48,4 +52,7 @@
   text-anchor: middle;
 }
 
-.min-svh-100 { min-height: 100svh; }
+.min-svh-100 { 
+  min-height: 100svh;
+  min-height: 100vh;
+}
