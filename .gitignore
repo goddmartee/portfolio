@@ -8,6 +8,7 @@
 /docs/.vitepress/cache
 /packages/vite/LICENSE
 dist-ssr
+dist
 explorations
 node_modules
 playground-temp
